@@ -18,6 +18,7 @@ export namespace Components {
         "site"?: binotype.Site<VNode> | string;
     }
     interface SimonmikaSite {
+        "debug"?: boolean | "context" | "site";
     }
 }
 declare global {
@@ -47,16 +48,20 @@ declare namespace LocalJSX {
         "site"?: binotype.Site<VNode> | string;
     }
     interface SimonmikaSite {
+        "debug"?: boolean | "context" | "site";
     }
 
     interface BinotypeSiteAttributes {
         "site": binotype.Site<VNode> | string;
         "debug": string;
     }
+    interface SimonmikaSiteAttributes {
+        "debug": string;
+    }
 
     interface IntrinsicElements {
         "binotype-site": Omit<BinotypeSite, keyof BinotypeSiteAttributes> & { [K in keyof BinotypeSite & keyof BinotypeSiteAttributes]?: BinotypeSite[K] } & { [K in keyof BinotypeSite & keyof BinotypeSiteAttributes as `attr:${K}`]?: BinotypeSiteAttributes[K] } & { [K in keyof BinotypeSite & keyof BinotypeSiteAttributes as `prop:${K}`]?: BinotypeSite[K] };
-        "simonmika-site": SimonmikaSite;
+        "simonmika-site": Omit<SimonmikaSite, keyof SimonmikaSiteAttributes> & { [K in keyof SimonmikaSite & keyof SimonmikaSiteAttributes]?: SimonmikaSite[K] } & { [K in keyof SimonmikaSite & keyof SimonmikaSiteAttributes as `attr:${K}`]?: SimonmikaSiteAttributes[K] } & { [K in keyof SimonmikaSite & keyof SimonmikaSiteAttributes as `prop:${K}`]?: SimonmikaSite[K] };
     }
 }
 export { LocalJSX as JSX };

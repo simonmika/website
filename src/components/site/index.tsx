@@ -1,4 +1,4 @@
-import { Component, ComponentWillLoad, h, Host, State, VNode } from "@stencil/core"
+import { Component, ComponentWillLoad, h, Host, Prop, State, VNode } from "@stencil/core"
 import { site } from "../../../index"
 import { binotype } from "@binotype/model"
 import * as components from "../binotype"
@@ -8,6 +8,7 @@ components.Footer.override = Footer
 @Component({ tag: "simonmika-site", styleUrl: "style.css" })
 export class SimonmikaSite implements ComponentWillLoad {
 	@State() site?: binotype.Site<VNode>
+	@Prop() debug?: boolean | "context" | "site"
 	async componentWillLoad() {
 		this.site = await site()
 	}
