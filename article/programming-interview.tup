@@ -14,7 +14,9 @@ So why do we not spend more time looking at a candidate's past programming achie
 
 So how do we get around this? We let the candidate program something for us - something where the interviewer already knows the problem and, as the available time is limited, the amount of code produced will be too. So all is fine, isn't it? Not really. Many times the available time is too short, so we resort to creating programming riddles. In fact, there are even [https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850 books] filled with these so you can train for them. Another sign that things aren't perfect is that recruiters encourage candidates to spend significant time on preparations.
 
-> We resort to creating programming riddles.
+"""
+We resort to creating programming riddles.
+"""
 
 Asking a programmer to solve these riddles is at best like asking a newspaper journalist to write poems, and at worst like asking them to solve crossword puzzles. Although they all involve writing words, the skills needed to excel are really different from writing a news article. Even if some of the skills are somewhat useful for doing journalistic work, poem writing and crossword puzzle solving are still bad predictors of a good journalist. The same is true for writing real software and these interviewing riddles.
 
@@ -24,7 +26,9 @@ Exactly like writing poems totally misses the journalistic side of writing a new
 
 The solution, instead of small hard to crack riddles, is to create a simulation of what real work is like as a programmer at your company. For that you will firstly need _more time_. At least 3-4 hours for just one single task. The task should preferably be void of any domain specific knowledge.
 
-> The programming interview should try to emulate real work.
+"""
+The programming interview should try to emulate real work.
+"""
 
 Instead of grading the end result, the interviewer should during the programming process spend time to find out on what grounds the candidate makes their design choices. Just make sure to also leave the candidates alone for awhile every now and then so that they get something done to. From this you will not only learn how skilled of a programmer they are but also how they are to work with:
 

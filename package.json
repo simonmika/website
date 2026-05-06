@@ -34,7 +34,7 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"@binotype/model": "^2.0.0-beta.6",
+		"@binotype/model": "^2.0.0-beta.16",
 		"@types/node": "^25.6.0",
 		"@typeup/dom": "^1.0.11-beta.3",
 		"@typeup/parser": "^1.2.5-beta.4",

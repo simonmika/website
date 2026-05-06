@@ -1,6 +1,6 @@
+import { binotype } from "@binotype/model"
 import { Component, ComponentWillLoad, h, Host, Prop, State, VNode } from "@stencil/core"
 import { site } from "../../../index"
-import { binotype } from "@binotype/model"
 import * as components from "../binotype"
 import { Footer } from "../Footer"
 
@@ -15,7 +15,7 @@ export class SimonmikaSite implements ComponentWillLoad {
 	render() {
 		return (
 			<Host>
-				<binotype-site site={this.site} debug></binotype-site>
+				<binotype-site site={this.site} debug={this.debug}></binotype-site>
 			</Host>
 		)
 	}

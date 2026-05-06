@@ -8,7 +8,9 @@ We humans can in our head only concurrently work with about eight items. If we t
 
 This is one of the main reasons programming is all about creating abstractions. Abstractions enable us to reason about bigger chunks of code. Well done, they also enable us to cooperate in large groups.
 
-> Programming is all about creating abstractions.
+"""
+Programming is all about creating abstractions.
+"""
 
 Lack of abstractions is the single most common reason for technical debt in software. This probably comes from the fact that programming is to instruct a computer, mostly in a linear manner. It is like constructing a new car model using step by step instruction of how to manufacture and combine the parts, without separating the instructions into parts and subassemblies. Like starting the instructions with take a piece of steel and place it in the lathe and then continue in a similar manner until the factory rolls out. The bigger picture is lost in all the details.
 

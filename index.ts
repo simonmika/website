@@ -1,11 +1,11 @@
 import { binotype } from "@binotype/model"
-import { parser } from "./src/components/binotype/parser"
+import { VNode } from "@stencil/core"
 import about from "./about.tup"
 import { article } from "./article"
 import contact from "./contact.tup"
 import description from "./description.tup"
 import { design } from "./design"
-import { VNode } from "@stencil/core"
+import { parser } from "./src/components/binotype/parser"
 import subscribe from "./subscribe.tup"
 import { talk } from "./talk"
 
@@ -21,6 +21,8 @@ export async function site(): Promise<binotype.Site<VNode> | undefined> {
 		author: "Simon Mika",
 		design,
 		page: {
+			mode: "none",
+			list: "header",
 			pages: {
 				article: await article(),
 				talk: await talk(),

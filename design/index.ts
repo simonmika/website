@@ -6,6 +6,6 @@ export const design: binotype.Design = {
 	styles: ["//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css"],
 	scripts: ["//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js", "/assets/share-blockquote.js"],
 	navigation: "header",
-	list: { mode: "header" },
-	home: { mode: "header", section: "article" }
+	list: "header",
+	home: "article"
 }
