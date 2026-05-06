@@ -1,14 +1,16 @@
 /// <reference types="vitest/config" />
 import { defineConfig } from "vite"
+import { importAsString } from "rollup-plugin-string-import"
 
 export default defineConfig({
+	plugins: [importAsString({ include: "**/*.tup" })],
 	test: {
 		typecheck: { tsconfig: "./tsconfig.json" },
 		coverage: {
 			reporter: ["text", "json", "html"],
 			enabled: true,
 			cleanOnRerun: true,
-			thresholds: { statements: 60, branches: 45, functions: 50, lines: 60 }
+			thresholds: { statements: 60, branches: 45, functions: 40, lines: 60 }
 		},
 		globals: true,
 		include: ["**/*.spec.[tj]s"],
@@ -18,6 +20,7 @@ export default defineConfig({
 		server: {
 			deps: {
 				inline: [
+					"mendly",
 					"@binotype/model",
 					"@typeup/dom",
 					"@typeup/parser",

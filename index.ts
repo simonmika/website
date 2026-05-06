@@ -9,7 +9,7 @@ import { parser } from "./src/components/binotype/parser"
 import subscribe from "./subscribe.tup"
 import { talk } from "./talk"
 
-export async function site(): Promise<binotype.Site<VNode> | undefined> {
+export async function site(): Promise<binotype.Site<VNode>> {
 	return {
 		url: "https://simonmika.com",
 		language: "en-US",

@@ -1,0 +1,616 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`simonmika-com > binotype.Context.create(/articles) 1`] = `
+{
+  "article": {
+    "id": "articles",
+    "link": "/articles",
+    "list": {
+      "mode": "full",
+    },
+    "menu": true,
+    "mode": "full",
+    "title": {
+      "formatted": "Not Found",
+      "plain": "Not Found",
+    },
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": "article",
+    "icon": "icon/favicon.ico",
+    "list": "header",
+    "logotype": "assets/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+      "/assets/share-blockquote.js",
+    ],
+    "styles": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
+  },
+  "menu": {
+    "items": [
+      {
+        "description": "Articles",
+        "items": [
+          {
+            "description": "Taking Risk When Dying",
+            "label": "Taking Risk When Dying",
+            "url": "/article/taking-risk-when-dying",
+          },
+          {
+            "description": "Optimizing Software",
+            "label": "Optimizing Software",
+            "url": "/article/optimizing-software",
+          },
+          {
+            "description": "Naming",
+            "label": "Naming",
+            "url": "/article/naming",
+          },
+          {
+            "description": "The Programming Interview",
+            "label": "The Programming Interview",
+            "url": "/article/programming-interview",
+          },
+          {
+            "description": "Recruiting Process",
+            "label": "Recruiting Process",
+            "url": "/article/recruiting-process",
+          },
+          {
+            "description": "Rock Star Programmers",
+            "label": "Rock Star Programmers",
+            "url": "/article/rock-star-programmers",
+          },
+          {
+            "description": "To Live",
+            "label": "To Live",
+            "url": "/article/to-live",
+          },
+        ],
+        "label": "Articles",
+        "url": "/article",
+      },
+      {
+        "description": "Talks",
+        "items": [
+          {
+            "description": "Egenanställd Konsult",
+            "label": "Egenanställd Konsult",
+            "url": "/talk/egen-konsult",
+          },
+          {
+            "description": "Retro Game w/ Modern UI Tools",
+            "label": "Retro Game w/ Modern UI Tools",
+            "url": "/talk/retro-game-modern-ui-tools",
+          },
+          {
+            "description": "Recruiting and Become Recruited 2025",
+            "label": "Recruiting and Become Recruited 2025",
+            "url": "/talk/recruiting2025",
+          },
+          {
+            "description": "Recruiting and Become Recruited",
+            "label": "Recruiting and Become Recruited",
+            "url": "/talk/recruiting",
+          },
+          {
+            "description": "How I Use TypeScript",
+            "label": "How I Use TypeScript",
+            "url": "/talk/how-i-use-typescript",
+          },
+          {
+            "description": "On Programming",
+            "label": "On Programming",
+            "url": "/talk/on-programming",
+          },
+        ],
+        "label": "Talks",
+        "url": "/talk",
+      },
+      {
+        "description": "About",
+        "label": "About",
+        "url": "/about",
+      },
+    ],
+  },
+  "title": "Simon Says",
+  "url": "https://simonmika.com/articles",
+}
+`;
+
+exports[`simonmika-com > binotype.Context.create(/articles/abstractions) 1`] = `
+{
+  "article": {
+    "id": "abstractions",
+    "link": "/articles/abstractions",
+    "list": {
+      "mode": "full",
+    },
+    "menu": true,
+    "mode": "full",
+    "title": {
+      "formatted": "Not Found",
+      "plain": "Not Found",
+    },
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": "article",
+    "icon": "icon/favicon.ico",
+    "list": "header",
+    "logotype": "assets/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+      "/assets/share-blockquote.js",
+    ],
+    "styles": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
+  },
+  "menu": {
+    "items": [
+      {
+        "description": "Articles",
+        "items": [
+          {
+            "description": "Taking Risk When Dying",
+            "label": "Taking Risk When Dying",
+            "url": "/article/taking-risk-when-dying",
+          },
+          {
+            "description": "Optimizing Software",
+            "label": "Optimizing Software",
+            "url": "/article/optimizing-software",
+          },
+          {
+            "description": "Naming",
+            "label": "Naming",
+            "url": "/article/naming",
+          },
+          {
+            "description": "The Programming Interview",
+            "label": "The Programming Interview",
+            "url": "/article/programming-interview",
+          },
+          {
+            "description": "Recruiting Process",
+            "label": "Recruiting Process",
+            "url": "/article/recruiting-process",
+          },
+          {
+            "description": "Rock Star Programmers",
+            "label": "Rock Star Programmers",
+            "url": "/article/rock-star-programmers",
+          },
+          {
+            "description": "To Live",
+            "label": "To Live",
+            "url": "/article/to-live",
+          },
+        ],
+        "label": "Articles",
+        "url": "/article",
+      },
+      {
+        "description": "Talks",
+        "items": [
+          {
+            "description": "Egenanställd Konsult",
+            "label": "Egenanställd Konsult",
+            "url": "/talk/egen-konsult",
+          },
+          {
+            "description": "Retro Game w/ Modern UI Tools",
+            "label": "Retro Game w/ Modern UI Tools",
+            "url": "/talk/retro-game-modern-ui-tools",
+          },
+          {
+            "description": "Recruiting and Become Recruited 2025",
+            "label": "Recruiting and Become Recruited 2025",
+            "url": "/talk/recruiting2025",
+          },
+          {
+            "description": "Recruiting and Become Recruited",
+            "label": "Recruiting and Become Recruited",
+            "url": "/talk/recruiting",
+          },
+          {
+            "description": "How I Use TypeScript",
+            "label": "How I Use TypeScript",
+            "url": "/talk/how-i-use-typescript",
+          },
+          {
+            "description": "On Programming",
+            "label": "On Programming",
+            "url": "/talk/on-programming",
+          },
+        ],
+        "label": "Talks",
+        "url": "/talk",
+      },
+      {
+        "description": "About",
+        "label": "About",
+        "url": "/about",
+      },
+    ],
+  },
+  "title": "Simon Says",
+  "url": "https://simonmika.com/articles/abstractions",
+}
+`;
+
+exports[`simonmika-com > binotype.Context.create(/articles/naming) 1`] = `
+{
+  "article": {
+    "id": "naming",
+    "link": "/articles/naming",
+    "list": {
+      "mode": "full",
+    },
+    "menu": true,
+    "mode": "full",
+    "title": {
+      "formatted": "Not Found",
+      "plain": "Not Found",
+    },
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": "article",
+    "icon": "icon/favicon.ico",
+    "list": "header",
+    "logotype": "assets/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+      "/assets/share-blockquote.js",
+    ],
+    "styles": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
+  },
+  "menu": {
+    "items": [
+      {
+        "description": "Articles",
+        "items": [
+          {
+            "description": "Taking Risk When Dying",
+            "label": "Taking Risk When Dying",
+            "url": "/article/taking-risk-when-dying",
+          },
+          {
+            "description": "Optimizing Software",
+            "label": "Optimizing Software",
+            "url": "/article/optimizing-software",
+          },
+          {
+            "description": "Naming",
+            "label": "Naming",
+            "url": "/article/naming",
+          },
+          {
+            "description": "The Programming Interview",
+            "label": "The Programming Interview",
+            "url": "/article/programming-interview",
+          },
+          {
+            "description": "Recruiting Process",
+            "label": "Recruiting Process",
+            "url": "/article/recruiting-process",
+          },
+          {
+            "description": "Rock Star Programmers",
+            "label": "Rock Star Programmers",
+            "url": "/article/rock-star-programmers",
+          },
+          {
+            "description": "To Live",
+            "label": "To Live",
+            "url": "/article/to-live",
+          },
+        ],
+        "label": "Articles",
+        "url": "/article",
+      },
+      {
+        "description": "Talks",
+        "items": [
+          {
+            "description": "Egenanställd Konsult",
+            "label": "Egenanställd Konsult",
+            "url": "/talk/egen-konsult",
+          },
+          {
+            "description": "Retro Game w/ Modern UI Tools",
+            "label": "Retro Game w/ Modern UI Tools",
+            "url": "/talk/retro-game-modern-ui-tools",
+          },
+          {
+            "description": "Recruiting and Become Recruited 2025",
+            "label": "Recruiting and Become Recruited 2025",
+            "url": "/talk/recruiting2025",
+          },
+          {
+            "description": "Recruiting and Become Recruited",
+            "label": "Recruiting and Become Recruited",
+            "url": "/talk/recruiting",
+          },
+          {
+            "description": "How I Use TypeScript",
+            "label": "How I Use TypeScript",
+            "url": "/talk/how-i-use-typescript",
+          },
+          {
+            "description": "On Programming",
+            "label": "On Programming",
+            "url": "/talk/on-programming",
+          },
+        ],
+        "label": "Talks",
+        "url": "/talk",
+      },
+      {
+        "description": "About",
+        "label": "About",
+        "url": "/about",
+      },
+    ],
+  },
+  "title": "Simon Says",
+  "url": "https://simonmika.com/articles/naming",
+}
+`;
+
+exports[`simonmika-com > binotype.Context.create(/articles/to-live) 1`] = `
+{
+  "article": {
+    "id": "toLive",
+    "link": "/articles/to-live",
+    "list": {
+      "mode": "full",
+    },
+    "menu": true,
+    "mode": "full",
+    "title": {
+      "formatted": "Not Found",
+      "plain": "Not Found",
+    },
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": "article",
+    "icon": "icon/favicon.ico",
+    "list": "header",
+    "logotype": "assets/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+      "/assets/share-blockquote.js",
+    ],
+    "styles": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
+  },
+  "menu": {
+    "items": [
+      {
+        "description": "Articles",
+        "items": [
+          {
+            "description": "Taking Risk When Dying",
+            "label": "Taking Risk When Dying",
+            "url": "/article/taking-risk-when-dying",
+          },
+          {
+            "description": "Optimizing Software",
+            "label": "Optimizing Software",
+            "url": "/article/optimizing-software",
+          },
+          {
+            "description": "Naming",
+            "label": "Naming",
+            "url": "/article/naming",
+          },
+          {
+            "description": "The Programming Interview",
+            "label": "The Programming Interview",
+            "url": "/article/programming-interview",
+          },
+          {
+            "description": "Recruiting Process",
+            "label": "Recruiting Process",
+            "url": "/article/recruiting-process",
+          },
+          {
+            "description": "Rock Star Programmers",
+            "label": "Rock Star Programmers",
+            "url": "/article/rock-star-programmers",
+          },
+          {
+            "description": "To Live",
+            "label": "To Live",
+            "url": "/article/to-live",
+          },
+        ],
+        "label": "Articles",
+        "url": "/article",
+      },
+      {
+        "description": "Talks",
+        "items": [
+          {
+            "description": "Egenanställd Konsult",
+            "label": "Egenanställd Konsult",
+            "url": "/talk/egen-konsult",
+          },
+          {
+            "description": "Retro Game w/ Modern UI Tools",
+            "label": "Retro Game w/ Modern UI Tools",
+            "url": "/talk/retro-game-modern-ui-tools",
+          },
+          {
+            "description": "Recruiting and Become Recruited 2025",
+            "label": "Recruiting and Become Recruited 2025",
+            "url": "/talk/recruiting2025",
+          },
+          {
+            "description": "Recruiting and Become Recruited",
+            "label": "Recruiting and Become Recruited",
+            "url": "/talk/recruiting",
+          },
+          {
+            "description": "How I Use TypeScript",
+            "label": "How I Use TypeScript",
+            "url": "/talk/how-i-use-typescript",
+          },
+          {
+            "description": "On Programming",
+            "label": "On Programming",
+            "url": "/talk/on-programming",
+          },
+        ],
+        "label": "Talks",
+        "url": "/talk",
+      },
+      {
+        "description": "About",
+        "label": "About",
+        "url": "/about",
+      },
+    ],
+  },
+  "title": "Simon Says",
+  "url": "https://simonmika.com/articles/to-live",
+}
+`;
+
+exports[`simonmika-com > binotype.Context.create(/non-existent) 1`] = `
+{
+  "article": {
+    "id": "nonExistent",
+    "link": "/non-existent",
+    "list": {
+      "mode": "full",
+    },
+    "menu": true,
+    "mode": "full",
+    "title": {
+      "formatted": "Not Found",
+      "plain": "Not Found",
+    },
+  },
+  "base": "https://simonmika.com",
+  "design": {
+    "home": "article",
+    "icon": "icon/favicon.ico",
+    "list": "header",
+    "logotype": "assets/logotype.svg",
+    "navigation": "header",
+    "scripts": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js",
+      "/assets/share-blockquote.js",
+    ],
+    "styles": [
+      "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css",
+    ],
+  },
+  "menu": {
+    "items": [
+      {
+        "description": "Articles",
+        "items": [
+          {
+            "description": "Taking Risk When Dying",
+            "label": "Taking Risk When Dying",
+            "url": "/article/taking-risk-when-dying",
+          },
+          {
+            "description": "Optimizing Software",
+            "label": "Optimizing Software",
+            "url": "/article/optimizing-software",
+          },
+          {
+            "description": "Naming",
+            "label": "Naming",
+            "url": "/article/naming",
+          },
+          {
+            "description": "The Programming Interview",
+            "label": "The Programming Interview",
+            "url": "/article/programming-interview",
+          },
+          {
+            "description": "Recruiting Process",
+            "label": "Recruiting Process",
+            "url": "/article/recruiting-process",
+          },
+          {
+            "description": "Rock Star Programmers",
+            "label": "Rock Star Programmers",
+            "url": "/article/rock-star-programmers",
+          },
+          {
+            "description": "To Live",
+            "label": "To Live",
+            "url": "/article/to-live",
+          },
+        ],
+        "label": "Articles",
+        "url": "/article",
+      },
+      {
+        "description": "Talks",
+        "items": [
+          {
+            "description": "Egenanställd Konsult",
+            "label": "Egenanställd Konsult",
+            "url": "/talk/egen-konsult",
+          },
+          {
+            "description": "Retro Game w/ Modern UI Tools",
+            "label": "Retro Game w/ Modern UI Tools",
+            "url": "/talk/retro-game-modern-ui-tools",
+          },
+          {
+            "description": "Recruiting and Become Recruited 2025",
+            "label": "Recruiting and Become Recruited 2025",
+            "url": "/talk/recruiting2025",
+          },
+          {
+            "description": "Recruiting and Become Recruited",
+            "label": "Recruiting and Become Recruited",
+            "url": "/talk/recruiting",
+          },
+          {
+            "description": "How I Use TypeScript",
+            "label": "How I Use TypeScript",
+            "url": "/talk/how-i-use-typescript",
+          },
+          {
+            "description": "On Programming",
+            "label": "On Programming",
+            "url": "/talk/on-programming",
+          },
+        ],
+        "label": "Talks",
+        "url": "/talk",
+      },
+      {
+        "description": "About",
+        "label": "About",
+        "url": "/about",
+      },
+    ],
+  },
+  "title": "Simon Says",
+  "url": "https://simonmika.com/non-existent",
+}
+`;

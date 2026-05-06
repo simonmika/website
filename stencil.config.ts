@@ -1,7 +1,7 @@
 import { Config } from "@stencil/core"
 import { sass } from "@stencil/sass"
 import { inlineSvg } from "stencil-inline-svg"
-import { importAsString } from 'rollup-plugin-string-import'
+import { importAsString } from "rollup-plugin-string-import"
 
 const dev = process.argv.includes("--dev")
 

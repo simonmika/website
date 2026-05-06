@@ -35,6 +35,7 @@
 		"package-lock.json": true,
 		"*.config.ts": true,
 		"dist": true,
+		"www": true,
 		"coverage": true,
 		".copilot": true,
 		".github": true,

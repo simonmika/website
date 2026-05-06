@@ -6,8 +6,7 @@ A step by step guide on how to recruit programmers including checklists and what
 
 # Slides
 
+!frame ./talks-ss03-Recruiting.html slides
 Navigate using the orange arrows.
 
-<iframe style="width: 100\%; height: 21em; max-height: 100vh; margin: 0" src="./talks-ss03-Recruiting.html"></iframe>
-
-<a target="blank" href="./talks-ss03-Recruiting.html">Open</a> in a new tab.
+[./talks-ss03-Recruiting.html|blank Open] in a new tab.

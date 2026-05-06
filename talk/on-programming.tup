@@ -13,8 +13,7 @@ This talk looks into all the different aspects of programming language and progr
 
 # Slides
 
+!frame ./talks-ss01-On+Programming.html slides
 Navigate using the orange arrows.
 
-<iframe style="width: 100\%; height: 21em; max-height: 100vh; margin: 0" src="./talks-ss01-On Programming.html"></iframe>
-
-<a target="blank" href="./talks-ss01-On Programming.html">Open</a> in a new tab.
+[./talks-ss01-On Programming.html|blank Open] in a new tab.
