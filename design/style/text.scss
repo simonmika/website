@@ -25,6 +25,16 @@ em {
   font-style: normal;
   font-weight: $font-weight-medium;
 }
+q {
+	font-style: italic;
+	quotes: '"' '”';
+	&::before {
+		content: open-quote;
+	}
+	&::after {
+		content: close-quote;
+	}
+}
 // Body structure
 body {
   > main {

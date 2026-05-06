@@ -6,7 +6,5 @@ A way to create a simple old school game using modern user interface tools. Perf
 
 # Slides
 
-!frame ./talks-ss11+Retro+Game.html slides
-Navigate using the orange arrows.
-
-[./talks-ss11+Retro+Game.html|blank Open] in a new tab.
+!frame ./talks-ss11%20Retro%20Game.html slides
+Navigate using the red arrows. [./talks-ss11%20Retro%20Game.html|blank Open] in a new tab.

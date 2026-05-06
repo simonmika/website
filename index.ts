@@ -2,11 +2,9 @@ import { binotype } from "@binotype/model"
 import { VNode } from "@stencil/core"
 import about from "./about.tup"
 import { article } from "./article"
-import contact from "./contact.tup"
 import description from "./description.tup"
 import { design } from "./design"
 import { parser } from "./src/components/binotype/parser"
-import subscribe from "./subscribe.tup"
 import { talk } from "./talk"
 
 export async function site(): Promise<binotype.Site<VNode>> {
@@ -27,9 +25,7 @@ export async function site(): Promise<binotype.Site<VNode>> {
 				article: await article(),
 				talk: await talk(),
 				about: await parser.parse(about, "about"),
-				contact: await parser.parse(contact, "contact"),
-				description: await parser.parse(description, "description"),
-				subscribe: await parser.parse(subscribe, "subscribe")
+				description: await parser.parse(description, "description")
 			}
 		} satisfies binotype.Page<VNode>
 	}

@@ -56,6 +56,11 @@ exports[`simonmika-com > binotype.Context.create(/articles) 1`] = `
             "url": "/article/programming-interview",
           },
           {
+            "description": "Abstractions",
+            "label": "Abstractions",
+            "url": "/article/abstractions",
+          },
+          {
             "description": "Recruiting Process",
             "label": "Recruiting Process",
             "url": "/article/recruiting-process",
@@ -64,6 +69,11 @@ exports[`simonmika-com > binotype.Context.create(/articles) 1`] = `
             "description": "Rock Star Programmers",
             "label": "Rock Star Programmers",
             "url": "/article/rock-star-programmers",
+          },
+          {
+            "description": "CSS is Still Broken",
+            "label": "CSS is Still Broken",
+            "url": "/article/css-broken",
           },
           {
             "description": "To Live",
@@ -179,6 +189,11 @@ exports[`simonmika-com > binotype.Context.create(/articles/abstractions) 1`] = `
             "url": "/article/programming-interview",
           },
           {
+            "description": "Abstractions",
+            "label": "Abstractions",
+            "url": "/article/abstractions",
+          },
+          {
             "description": "Recruiting Process",
             "label": "Recruiting Process",
             "url": "/article/recruiting-process",
@@ -187,6 +202,11 @@ exports[`simonmika-com > binotype.Context.create(/articles/abstractions) 1`] = `
             "description": "Rock Star Programmers",
             "label": "Rock Star Programmers",
             "url": "/article/rock-star-programmers",
+          },
+          {
+            "description": "CSS is Still Broken",
+            "label": "CSS is Still Broken",
+            "url": "/article/css-broken",
           },
           {
             "description": "To Live",
@@ -302,6 +322,11 @@ exports[`simonmika-com > binotype.Context.create(/articles/naming) 1`] = `
             "url": "/article/programming-interview",
           },
           {
+            "description": "Abstractions",
+            "label": "Abstractions",
+            "url": "/article/abstractions",
+          },
+          {
             "description": "Recruiting Process",
             "label": "Recruiting Process",
             "url": "/article/recruiting-process",
@@ -310,6 +335,11 @@ exports[`simonmika-com > binotype.Context.create(/articles/naming) 1`] = `
             "description": "Rock Star Programmers",
             "label": "Rock Star Programmers",
             "url": "/article/rock-star-programmers",
+          },
+          {
+            "description": "CSS is Still Broken",
+            "label": "CSS is Still Broken",
+            "url": "/article/css-broken",
           },
           {
             "description": "To Live",
@@ -425,6 +455,11 @@ exports[`simonmika-com > binotype.Context.create(/articles/to-live) 1`] = `
             "url": "/article/programming-interview",
           },
           {
+            "description": "Abstractions",
+            "label": "Abstractions",
+            "url": "/article/abstractions",
+          },
+          {
             "description": "Recruiting Process",
             "label": "Recruiting Process",
             "url": "/article/recruiting-process",
@@ -433,6 +468,11 @@ exports[`simonmika-com > binotype.Context.create(/articles/to-live) 1`] = `
             "description": "Rock Star Programmers",
             "label": "Rock Star Programmers",
             "url": "/article/rock-star-programmers",
+          },
+          {
+            "description": "CSS is Still Broken",
+            "label": "CSS is Still Broken",
+            "url": "/article/css-broken",
           },
           {
             "description": "To Live",
@@ -548,6 +588,11 @@ exports[`simonmika-com > binotype.Context.create(/non-existent) 1`] = `
             "url": "/article/programming-interview",
           },
           {
+            "description": "Abstractions",
+            "label": "Abstractions",
+            "url": "/article/abstractions",
+          },
+          {
             "description": "Recruiting Process",
             "label": "Recruiting Process",
             "url": "/article/recruiting-process",
@@ -556,6 +601,11 @@ exports[`simonmika-com > binotype.Context.create(/non-existent) 1`] = `
             "description": "Rock Star Programmers",
             "label": "Rock Star Programmers",
             "url": "/article/rock-star-programmers",
+          },
+          {
+            "description": "CSS is Still Broken",
+            "label": "CSS is Still Broken",
+            "url": "/article/css-broken",
           },
           {
             "description": "To Live",

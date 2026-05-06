@@ -4,16 +4,14 @@ title = On Programming
 
 This talk looks into all the different aspects of programming language and programmer habits. The headlines are:
 
-* Productivity vs Efficiency
-* The Blub Paradox
-* Superstitious Programmers
-* Encapsulating & Abstracting
-* Lowest Common Denominator
-* Design Patterns Instead of a Better Language
+- Productivity vs Efficiency
+- The Blub Paradox
+- Superstitious Programmers
+- Encapsulating & Abstracting
+- Lowest Common Denominator
+- Design Patterns Instead of a Better Language
 
 # Slides
 
-!frame ./talks-ss01-On+Programming.html slides
-Navigate using the orange arrows.
-
-[./talks-ss01-On Programming.html|blank Open] in a new tab.
+!frame ./talks-ss01-On%20Programming.html slides
+Navigate using the red arrows. [./talks-ss01-On%20Programming.html|blank Open] in a new tab.

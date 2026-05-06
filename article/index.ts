@@ -1,8 +1,8 @@
 import { binotype } from "@binotype/model"
-import { parser } from "../src/components/binotype/parser"
 import { VNode } from "@stencil/core"
-// import abstractions from "./abstractions.tup"
-// import cssBroken from "./css-broken.tup"
+import { parser } from "../src/components/binotype/parser"
+import abstractions from "./abstractions.tup"
+import cssBroken from "./css-broken.tup"
 import naming from "./naming.tup"
 import optimizingDatabases from "./optimizing-databases.tup"
 import optimizingExecutionSpeed from "./optimizing-execution-speed.tup"
@@ -17,8 +17,8 @@ export async function article(): Promise<binotype.Page<VNode> | undefined> {
 	return {
 		title: "Articles",
 		pages: {
-			//abstractions: await parser.parse(abstractions, "article/abstractions"),
-			//cssBroken: await parser.parse(cssBroken, "article/cssBroken"),
+			abstractions: await parser.parse(abstractions, "article/abstractions"),
+			cssBroken: await parser.parse(cssBroken, "article/cssBroken"),
 			naming: await parser.parse(naming, "article/naming"),
 			optimizingDatabases: await parser.parse(optimizingDatabases, "article/optimizingDatabases"),
 			optimizingExecutionSpeed: await parser.parse(optimizingExecutionSpeed, "article/optimizingExecutionSpeed"),
