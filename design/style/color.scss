@@ -1,6 +1,6 @@
 @use './variables' as *;
-// Black on White
-body {
+
+#{$layout-root} {
 	color: $color-dark;
 	background: $color-light;
 	> header {

@@ -21,3 +21,5 @@ $share-padding: 0.2em;
 // Layout
 $padding-unit: 1em;
 $border-radius: 0.5em;
+// Root Selector
+$layout-root: ":where(body, body > simonmika-site > binotype-site)";

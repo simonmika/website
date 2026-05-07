@@ -8,6 +8,7 @@ $sidebar-width: 37%;
 $main-width: 62.5%;
 $main-max-width: 40em;
 $header-image-max-width: 80%;
+$layout-root: ":where(body, body > simonmika-site > binotype-site)";
 // Mixins
 @mixin table-layout {
   display: table;
@@ -35,7 +36,7 @@ $header-image-max-width: 80%;
   padding-right: $padding-unit;
 }
 // Main Layout
-body {
+#{$layout-root} {
   > header {
     > h1 {
       padding-top: $padding-large;
@@ -178,6 +179,7 @@ body {
     }
   }
   // Binotype specific styles
+  &,
   > binotype-site {
     > header > nav li > a,
     > footer > nav li > a {
@@ -207,21 +209,23 @@ article > header > a[href="../"] {
 }
 // Responsive Design
 /* Narrow screens (default) */
-body > header,
-body > main,
-body > footer > nav,
-body > footer > main,
-body > footer > footer {
-  width: 100%;
-}
-body > header,
-body > main > header,
-body > footer > footer {
-  text-align: center;
+#{$layout-root} {
+  > header,
+  > main,
+  > footer > nav,
+  > footer > main,
+  > footer > footer {
+    width: 100%;
+  }
+  > header,
+  > main > header,
+  > footer > footer {
+    text-align: center;
+  }
 }
 /* Wide screens */
 @media screen and (min-width: $breakpoint-wide) {
-  body {
+  #{$layout-root} {
     > header,
     > main {
       min-height: 0.5hv;
