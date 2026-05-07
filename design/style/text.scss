@@ -35,8 +35,11 @@ q {
 		content: close-quote;
 	}
 }
+pre {
+	tab-size: 2;
+}
 // Body structure
-body {
+#{$layout-root} {
   > main {
     > header > p,
     > article > header > p {

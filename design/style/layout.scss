@@ -8,7 +8,6 @@ $sidebar-width: 37%;
 $main-width: 62.5%;
 $main-max-width: 40em;
 $header-image-max-width: 80%;
-$layout-root: ":where(body, body > simonmika-site > binotype-site)";
 // Mixins
 @mixin table-layout {
   display: table;

@@ -54,7 +54,7 @@
 	}
 }
 // Blockquote styling
-body > main > article > main blockquote {
+#{$layout-root} > main > article > main blockquote {
 	color: $color-grey;
 	background: $color-dark;
 	margin-left: -1em;
